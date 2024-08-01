@@ -68,7 +68,7 @@
                 <&macro_tap>,
                 <&kp LEFT>,
                 <&macro_release>,
-                <&kp LWIN>;
+                <&kp LWIN>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -83,7 +83,7 @@
                 <&macro_tap>,
                 <&kp RIGHT>,
                 <&macro_release>,
-                <&kp LWIN>;
+                <&kp LWIN>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -98,7 +98,7 @@
                 <&macro_tap>,
                 <&kp UP>,
                 <&macro_release>,
-                <&kp LWIN>;
+                <&kp LWIN>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
@@ -113,7 +113,7 @@
                 <&macro_tap>,
                 <&kp DOWN>,
                 <&macro_release>,
-                <&kp LWIN>;
+                <&kp LWIN>,
                 <&macro_release>,
                 <&kp LCTRL>;
         };
