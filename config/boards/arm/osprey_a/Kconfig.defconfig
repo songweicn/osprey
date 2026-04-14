@@ -29,6 +29,7 @@ config I2C
 	default y
 
 config ZMK_MAX17048
-	default y
+    bool "MAX17048 support"
+    default y
 
 endif # BOARD_OSPREY_A
