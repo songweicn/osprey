@@ -15,6 +15,7 @@
     macros {
         lgleft: lgleft {
             compatible = "zmk,behavior-macro";
+            label = "LGLEFT";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -26,6 +27,7 @@
         };
         lgright: lgright {
             compatible = "zmk,behavior-macro";
+            label = "LGRIGHT";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -37,6 +39,7 @@
         };
         lgup: lgup {
             compatible = "zmk,behavior-macro";
+            label = "LGUP";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -48,6 +51,7 @@
         };
         lgdown: lgdown {
             compatible = "zmk,behavior-macro";
+            label = "LGDOWN";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -59,6 +63,7 @@
         };
         lglcleft: lglcleft {
             compatible = "zmk,behavior-macro";
+            label = "LGLCLEFT";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -74,6 +79,7 @@
         };
         lglcright: lglcright {
             compatible = "zmk,behavior-macro";
+            label = "LGLCRIGHT";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -89,6 +95,7 @@
         };
         lglcup: lglcup {
             compatible = "zmk,behavior-macro";
+            label = "LGLCUP";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -104,6 +111,7 @@
         };
         lglcdown: lglcdown {
             compatible = "zmk,behavior-macro";
+            label = "LGLCDOWN";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -153,7 +161,7 @@
 
         F_layer {
             bindings = <
-&kp F1      &kp F2        &kp F4        &kp F4        &kp F5  &kp F6               &kp F7    &kp F8     &kp F9     &kp F10    &kp F11  &kp F12
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5  &kp F6               &kp F7    &kp F8     &kp F9     &kp F10    &kp F11  &kp F12
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &sys_reset           &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans   &trans
 &trans      &trans        &trans        &trans        &trans  &bootloader          &lglcleft &lglcdown  &lglcup    &lglcright &trans   &trans
                                         &trans        &trans  &trans               &trans    &trans     &trans
