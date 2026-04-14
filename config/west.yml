@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: ebastler
-      url-base: https://github.com/songweicn/zmk
+      url-base: https://github.com/songweicn
   projects:
     - name: zmk
       remote: ebastler
