@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ebastler
+    - name: songweicn
       url-base: https://github.com/songweicn
   projects:
     - name: zmk
-      remote: ebastler
+      remote: songweicn
       revision: testbranch
       import: app/west.yml
   self:
