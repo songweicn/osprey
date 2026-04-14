@@ -101,7 +101,7 @@
 	fuelgauge: max17048@36 {
 		compatible = "zmk,maxim-max17048";
 		reg = <0x36>;
-        status = "okay";
+        status = "disabled";
 	};
 };
 
